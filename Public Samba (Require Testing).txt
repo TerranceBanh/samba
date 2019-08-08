@@ -1,0 +1,14 @@
+[INPUT FOLDER NAME HERE]
+	path = INPUT PATH HERE
+	comment = INPUT DESCRIPTION HERE
+	hide files = /$RECYCLE.BIN/desktop.ini/
+	write list = USER, USERGROUP
+
+	browsable = yes
+	public = yes
+	guest ok = yes
+	writable = no
+
+Notes:
+	Used for public use.
+	Give specific users write permissions.

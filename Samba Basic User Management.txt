@@ -1,0 +1,14 @@
+Add User
+sudo smbpasswd -a USERNAME
+
+Add User with no password
+sudo smbpasswd -an USERNAME
+
+Delete User
+sudo smbpasswd -x USERNAME
+
+Disable User
+sudo smbpasswd -d USERNAME
+
+Enable User
+sudo smbpasswd -e USERNAME
